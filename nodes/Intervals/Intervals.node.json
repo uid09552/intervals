@@ -1,0 +1,18 @@
+{
+	"node": "intervals",
+	"nodeVersion": "1.1",
+	"codexVersion": "1.1",
+	"categories": ["Productivity", "Sports & Fitness"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://intervals.icu/api/v1/docs/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://intervals.icu/"
+			}
+		]
+	}
+}

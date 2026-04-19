@@ -1,0 +1,88 @@
+/* generated using openapi-typescript-codegen -- do not edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+export type Interval = {
+    start_index?: number;
+    distance?: number;
+    moving_time?: number;
+    elapsed_time?: number;
+    average_watts?: number;
+    average_watts_alt?: number;
+    average_watts_alt_acc?: number;
+    min_watts?: number;
+    max_watts?: number;
+    average_watts_kg?: number;
+    max_watts_kg?: number;
+    intensity?: number;
+    w5s_variability?: number;
+    weighted_average_watts?: number;
+    training_load?: number;
+    joules?: number;
+    joules_above_ftp?: number;
+    decoupling?: number;
+    avg_lr_balance?: number;
+    average_dfa_a1?: number;
+    average_epoc?: number;
+    wbal_start?: number;
+    wbal_end?: number;
+    average_respiration?: number;
+    average_tidal_volume?: number;
+    average_tidal_volume_min?: number;
+    zone?: number;
+    zone_min_watts?: number;
+    zone_max_watts?: number;
+    average_speed?: number;
+    min_speed?: number;
+    max_speed?: number;
+    gap?: number;
+    average_heartrate?: number;
+    min_heartrate?: number;
+    max_heartrate?: number;
+    average_cadence?: number;
+    min_cadence?: number;
+    max_cadence?: number;
+    average_torque?: number;
+    min_torque?: number;
+    max_torque?: number;
+    total_elevation_gain?: number;
+    min_altitude?: number;
+    max_altitude?: number;
+    average_gradient?: number;
+    average_smo2?: number;
+    average_thb?: number;
+    average_smo2_2?: number;
+    average_thb_2?: number;
+    average_lactate?: number;
+    min_lactate?: number;
+    max_lactate?: number;
+    average_temp?: number;
+    average_weather_temp?: number;
+    average_feels_like?: number;
+    average_wind_speed?: number;
+    average_wind_gust?: number;
+    prevailing_wind_deg?: number;
+    average_yaw?: number;
+    headwind_percent?: number;
+    tailwind_percent?: number;
+    strain_score?: number;
+    ss_p_max?: number;
+    ss_w_prime?: number;
+    ss_cp?: number;
+    id?: number;
+    type?: Interval.type;
+    end_index?: number;
+    group_id?: string;
+    segment_effort_ids?: Array<number>;
+    start_time?: number;
+    end_time?: number;
+    label?: string;
+    average_stride?: number;
+};
+export namespace Interval {
+    export enum type {
+        RECOVERY = 'RECOVERY',
+        WORK = 'WORK',
+    }
+}
+
